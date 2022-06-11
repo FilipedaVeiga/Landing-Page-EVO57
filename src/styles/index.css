@@ -76,9 +76,11 @@ footer a { font-size: 12px;}
 
 .creditosdesigner { font-size: 8px;}
 
-footer div { padding-top: 33px; text-align: center; 
+footer div { padding-top: 15px; text-align: center; 
 
 }
+
+.contato {font-size:14px;}
 
 .verificar {
     float: left;
@@ -111,6 +113,7 @@ form p {
 
 .letrasmiudas {font-size: 14px;}
 
+.link {padding-top: 5px; margin: 5px 0 0 5px;}
 @media ( max-width: 896px) {
 * { font-size: 16px;} /* 18px padrao */  /* TIRO 2PX */
 .areadepostagem {width: 696px;}
