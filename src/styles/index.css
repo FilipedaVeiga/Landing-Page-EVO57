@@ -195,16 +195,16 @@ form p {
             }
 
             @media ( max-width: 396px) {
-                .areadepostagem {width: 320px;}
+                .areadepostagem {width: 312px;}
                     .post1 {
                         width: 53% ;    } /* 55% */
                     
-                    .post1form {width: 90%; margin: 43px 20px 0 20px; font-size: 19px;}
+                    .post1form {width: 90%; margin: 43px 3px 0 3px; font-size: 19px;}
                 
                     form {width: 45% ; }
                 
                     form p {
-                        margin-left: -3px; font-size: 15px;width: 150px; }
+                        margin-left: -5px; font-size: 14px;width: 150px; }
             
                 
                     .sozinho {
