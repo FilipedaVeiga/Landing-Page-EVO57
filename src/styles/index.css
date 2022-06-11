@@ -69,7 +69,7 @@ footer {
     min-width: 100%;
 }
 
-footer p {text-align: justify; font-size: 12px; }
+footer p {text-align: center; font-size: 12px; }
 footer a { font-size: 12px;}
 
 .creditosdesigner { font-size: 8px;}
