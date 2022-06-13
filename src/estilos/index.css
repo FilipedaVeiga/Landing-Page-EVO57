@@ -6,6 +6,7 @@
     font-size: 18px;
     text-align: justify;
 }
+
 a {
     text-decoration-line: none;
 }
@@ -15,6 +16,7 @@ width: 100%;
 background:rgb(90, 42, 224);
 }
 
+ /* CABEÇALHO */
 header {
     width: 100%;
     height: 65px;
@@ -26,6 +28,8 @@ header {
 
 
 }
+
+/* BANNER TOPO */
 #image1 {
     background:  rgb(93, 26, 234);
     background-repeat: no-repeat;
@@ -34,35 +38,40 @@ header {
     
     
 }
-
+/* MAIN */
 .areadepostagem {
     background: rgb(90, 42, 224);
     width: 896px;
     height: 778px;
     margin: 0 auto;   
 }
+/* TEXTO AO LADO DO FORMULARIO */
 .post1 {
     width: 400px ;
     height: 545px;
     float: left;
 }
 
+
+/* AREA DO FORMULARIO */
 .post1form {
-margin-top: 70px;
-width: 332px;
+margin-top: 50px;
+width: 320px;
 height: 62px;
 font-size: 25px;
 clear: right;
 display: inline-block;
 }
+
+/* Mas você não está sozinho! */
 .sozinho {
     font-size: 25px;
 }
 
-
-
+/* TAMANHO DO ESPAÇAMENTO ENTRE AS LINHAS DO TEXTO */
 .espacoparabaixo {height: 25px; display: block;}
-.espaco {width: 20px; height: 20px; display: inline-block;}
+
+/* RODAPÉ */
 footer {
     background: rgb(81, 26, 196);
     width: 100%;
@@ -80,8 +89,10 @@ footer div { padding-top: 15px; text-align: center;
 
 }
 
-.contato {font-size:14px;}
+.contato {font-size:14px; }
+footer section img {margin-top: 20px;}
 
+/* ICON VERIFICAR DENTRO DE UM CIRCULO */
 .verificar {
     float: left;
    padding-top: 10px;
@@ -93,27 +104,35 @@ footer div { padding-top: 15px; text-align: center;
     padding-right: 20px;
 }
 
+/* SPAM DESTAQUE NA COR 232 111 108 (LARANJA) */
 .lucrar {
     color: rgb(232,111,108);
 }
 
-form {background: rgb(81, 26, 196);
-width: 406px;
+/* FORMULÁRIO  */
+form {background: rgb(255, 255, 255);
 height: 675px;
 float: right;
-border: 2px solid rgb(232,111,108);
+border: 2px solid rgb(232,111,108); 
+
 }
 
-form p {
-    float: left;
-    margin-left: 103px;
-    width: 200px;
-    text-align: center;
+/* PARA CENTRALIZAR O CONTEÚDO DO FORMULÁRIO DENTRO DA AREA BRANCA USAMOS A DIV */
+form div {color: black; margin-left: 10%;font-size: 16px; padding-top: 33px;}
+
+
+/* CABEÇALHO DO FORMULARIO */
+.headerform {
+text-align: center;
+padding-top: 10%;
 }
 
+/* BOTAO DO FORMULARIO  */
+input {background: rgb(244,244, 244); border: none; width: 90%; height: 32px;margin-top: 10px; margin-bottom: 25px;  color: black;}
+.enviar {width: 90%; height: 55PX; border: none; background: rgba(255, 98, 36, 0.925); text-align: center;}
+
+/* LETRAS MIUDAS DO CONVITE DO TEXTO AO LADO PARA PREENCHER FORMULARIO */
 .letrasmiudas {font-size: 14px;}
-
-.icon {padding-top: 5px; margin: 5px 0 0 5px;}
 @media ( max-width: 896px) {
 * { font-size: 16px;} /* 18px padrao */  /* TIRO 2PX */
 .areadepostagem {width: 696px;}
@@ -124,8 +143,6 @@ form p {
 
     form {width: 40% ; }
 
-    form p {
-        margin-left: 15%; }
 
         .sozinho {
             font-size: 23px; /* 25px padrao */
@@ -144,9 +161,7 @@ form p {
         .post1form {width: 50% ; margin-top: 120px; font-size: 21px;}
     
         form {width: 40% ; }
-    
-        form p {
-            margin-left: 5%; }
+
 
     
         .sozinho {
@@ -162,12 +177,10 @@ form p {
             .post1 {
                 width: 50% ;    }
             
-            .post1form {width: 50% ; margin-top: 120px; font-size: 21px;}
+            .post1form {width: 50% ; margin-top: 50px; font-size: 21px;}
         
             form {width: 40% ; }
-        
-            form p {
-                margin-left: 5%; }
+
     
         
             .sozinho {
@@ -186,9 +199,6 @@ form p {
                 .post1form {width: 90% ; height: auto  ;margin: 35px 20px 0 20px; font-size: 21px;}
             
                 form {width: 40% ; }
-            
-                form p {
-                    margin-left: -20px; }
         
             
                 .sozinho {
@@ -196,21 +206,19 @@ form p {
                     }
         
                     .letrasmiudas {font-size: 12px;}    
+                    
         
             }
 
             @media ( max-width: 396px) {
-                .areadepostagem {width: 312px;}
+                .areadepostagem {width: 306px;}
                     .post1 {
-                        width: 53% ;    } /* 55% */
+                        width: 53% ;} /* 55% */
                     
-                    .post1form {width: 90%; margin: 43px 3px 0 3px; font-size: 19px;}
+                    .post1form {width: 290px; margin: 3px 0px 0 3px; font-size: 19px;}
                 
-                    form {width: 45% ; }
-                
-                    form p {
-                        margin-left: -5px; font-size: 14px;width: 150px; }
-            
+                    form {width: 45% ; }             
+    
                 
                     .sozinho {
                             font-size: 19px;
@@ -219,5 +227,3 @@ form p {
                         .letrasmiudas {font-size: 10px;}    
             
                 }
-
-
