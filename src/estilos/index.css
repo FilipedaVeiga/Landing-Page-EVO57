@@ -53,6 +53,33 @@ header {
 }
 
 
+/* SPAM DESTAQUE NA COR 232 111 108 (LARANJA) */
+.lucrar {
+    color: rgb(232,111,108);
+}
+
+/* Mas você não está sozinho! */
+.sozinho {
+    font-size: 25px;
+}
+/* TAMANHO DO ESPAÇAMENTO ENTRE AS LINHAS DO TEXTO */
+.espacoparabaixo {height: 25px; display: block;}
+
+/* ICON VERIFICAR DENTRO DE UM CIRCULO */
+.verificar {
+    float: left;
+   padding-top: 10px;
+   padding-right: 20px;
+}
+
+.verificar1linha {
+    float: left;
+    padding-right: 20px;
+}
+
+/* LETRAS MIUDAS DO CONVITE DO TEXTO AO LADO PARA PREENCHER FORMULARIO */
+.letrasmiudas {font-size: 14px;}
+
 /* AREA DO FORMULARIO */
 .post1form {
 margin-top: 50px;
@@ -63,13 +90,34 @@ clear: right;
 display: inline-block;
 }
 
-/* Mas você não está sozinho! */
-.sozinho {
-    font-size: 25px;
-}
+/* FORMULÁRIO  */
+form {background: rgb(255, 255, 255);
+    height: 675px;
+    float: right;
+    border: 2px solid rgb(232,111,108); 
+    
+    }
+    
+    /* PARA CENTRALIZAR O CONTEÚDO DO FORMULÁRIO DENTRO DA AREA BRANCA USAMOS A DIV */
+    form div {color: black; margin-left: 10%;font-size: 16px; padding-top: 33px;}
+    
+    
+    /* CABEÇALHO DO FORMULARIO */
+    .headerform {
+    text-align: center;
+    padding-top: 10%;
+    }
+    
+    /* BOTAO DO FORMULARIO  */
+    input {background: rgb(244,244, 244); border: none; width: 90%; height: 32px;margin-top: 10px; margin-bottom: 25px;  color: black;}
+    .enviar {width: 90%; height: 55PX; border: none; background: rgba(255, 98, 36, 0.925); text-align: center;}
+    .enviar:hover {
+        background: rgb(232,111, 61);
+            text-decoration: underline;
+            cursor: pointer;
+          }
+    
 
-/* TAMANHO DO ESPAÇAMENTO ENTRE AS LINHAS DO TEXTO */
-.espacoparabaixo {height: 25px; display: block;}
 
 /* RODAPÉ */
 footer {
@@ -92,47 +140,8 @@ footer div { padding-top: 15px; text-align: center;
 .contato {font-size:14px; }
 footer section img {margin-top: 20px;}
 
-/* ICON VERIFICAR DENTRO DE UM CIRCULO */
-.verificar {
-    float: left;
-   padding-top: 10px;
-   padding-right: 20px;
-}
 
-.verificar1linha {
-    float: left;
-    padding-right: 20px;
-}
-
-/* SPAM DESTAQUE NA COR 232 111 108 (LARANJA) */
-.lucrar {
-    color: rgb(232,111,108);
-}
-
-/* FORMULÁRIO  */
-form {background: rgb(255, 255, 255);
-height: 675px;
-float: right;
-border: 2px solid rgb(232,111,108); 
-
-}
-
-/* PARA CENTRALIZAR O CONTEÚDO DO FORMULÁRIO DENTRO DA AREA BRANCA USAMOS A DIV */
-form div {color: black; margin-left: 10%;font-size: 16px; padding-top: 33px;}
-
-
-/* CABEÇALHO DO FORMULARIO */
-.headerform {
-text-align: center;
-padding-top: 10%;
-}
-
-/* BOTAO DO FORMULARIO  */
-input {background: rgb(244,244, 244); border: none; width: 90%; height: 32px;margin-top: 10px; margin-bottom: 25px;  color: black;}
-.enviar {width: 90%; height: 55PX; border: none; background: rgba(255, 98, 36, 0.925); text-align: center;}
-
-/* LETRAS MIUDAS DO CONVITE DO TEXTO AO LADO PARA PREENCHER FORMULARIO */
-.letrasmiudas {font-size: 14px;}
+/* @MEDIA */
 @media ( max-width: 896px) {
 * { font-size: 16px;} /* 18px padrao */  /* TIRO 2PX */
 .areadepostagem {width: 696px;}
